@@ -1,0 +1,62 @@
+<!DOCTYPE html><!-- el tipo de documento es html -->
+<html lang="es">
+<!-- idioma en que esta el contenido de mi página -->
+
+<head>
+    <!-- crea conexiones que no son visibles para el navegador -->
+    <meta charset="UTF-8"><!-- permite mostrar caráctere especiales -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- identifica el tamaño de navegador en que se abierto mi página web -->
+    <title>Mi primera pagína web</title><!-- tìtulo de la pestaña del navegador -->
+    <style>
+        
+        body{
+            background-color: rgb(102, 99, 99);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+    
+    </style>
+    <link rel="stylesheet" href="./estilo.css/estilosinicio.css">
+</head>
+
+<body>
+    <!-- todo lo visible para el navegador -->
+    <h1  style="color: rgb(52, 52, 133); background-color: white;">MARÍA MONTESSORI</h1>
+
+   <img src="./imagen1/María Montessori.jpg" alt="María Montessori js"
+    width="350px" height="300px" onclick="mensajePedagogo()">
+    <!-- src="" ruta donde se encuentra alojada mi imagen
+       alt="" es una descripción de ls imsgen
+       1. identificar la imagen que se rompio por error
+       2. Posicionamiento de mi sitio web en google (buscador) 
+       3. Permite que los sofwaer de lectura puedan describir la imagen en el sitio web  -->
+    <H2 class="titulo"; style="color: rgb(85, 85, 192); background-color: white;">LA MUJER QUE CAMBIO LA EDUCACIÓN EN EL MUNDO</H2>
+
+    <P class="parrafo">
+        Nacida en una época en que a lo máximo que aspiraba una mujer era a ser maestra, María se armó de valor y
+        estudió Ingeniería a los 14 años, luego Biología y por último fue aceptada en la Universidad de Roma, en la
+        Escuela de Medicina. Y a pesar de que al principio su padre se opuso, se graduó en 1896 como la primera mujer
+        médico en Italia.
+        <br>
+        Fue la pedagoga más destacada del pasado siglo quería que el niño fuese su propio maestro. Las bases de su
+        formulación se basaban en seis principios:  <b>autonomía, independencia, iniciativa, capacidad de elegir, desarrollo
+        de la voluntad y autodisciplina.</b>   
+        <br>
+        María Montessori creía que cada niño debía tener oportunidad de poder desarrollar sus propias capacidades, por
+        sí mismo y con los otros, para lograr ser un ser más humano, equilibrado e independiente.
+        <br>
+        El método Montessori se caracteriza por proveer un ambiente preparado: ordenado, estético, simple, real, donde
+        cada elemento tiene su razón de ser en el desarrollo de los niños. La educación Montessori cubre todos los
+        períodos educativos desde el nacimiento hasta los 18 años brindando un currículo integrado.
+    </P>
+
+    <iframe width="690" height="344" src="https://www.youtube.com/embed/P8Bvymudiyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+    <script src="./script.js/alerta.js"></script>
+    <!-- conexión al archivo de javascript -->
+</body>
+
+</html>
